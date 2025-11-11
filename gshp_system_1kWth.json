@@ -4,6 +4,7 @@
   "unit": "unit",
   "location": "RER",
   "database": "foreground-gshp",
+  "code": "foreground-gshp",
   "exchanges": [
     {"input": ["ecoinvent 3.12 cutoff", "steel, low-alloy, at plant"], "amount": 22.0, "unit": "kilogram", "type": "technosphere"},
     {"input": ["ecoinvent 3.12 cutoff", "copper, at regional storage"], "amount": 4.5, "unit": "kilogram", "type": "technosphere"},
