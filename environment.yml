@@ -1,0 +1,14 @@
+name: pumps
+channels:
+  - cmutel
+  - conda-forge
+dependencies:
+  - brightway25
+  - jupyter-ruff
+  - jupyterlab
+  - jupytext
+  - python=3.13
+  - pip:
+    - ecoinvent_interface==3.1
+
+prefix: "/home/rosalia/miniforge3/envs/pumps"
