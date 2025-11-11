@@ -1,0 +1,29 @@
+{
+  "name": "ground source heat pump system, 1 kWth, RER",
+  "reference product": "ground source heat pump system",
+  "unit": "unit",
+  "location": "RER",
+  "database": "foreground-gshp",
+  "exchanges": [
+    {"input": ["ecoinvent 3.12 cutoff", "steel, low-alloy, at plant"], "amount": 22.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "copper, at regional storage"], "amount": 4.5, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "stainless steel, 18/8, at plant"], "amount": 2.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "aluminium, primary, at plant"], "amount": 2.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "acrylonitrile-butadiene-styrene copolymer, at plant"], "amount": 8.5, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "polyurethane, rigid foam, at plant"], "amount": 10.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "printed wiring board, surface-mounted, for computer"], "amount": 1.7, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "methane, trifluoro-, HFC-23, at plant"], "amount": 0.2, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "polyethylene, high density, pipe, at plant"], "amount": 70.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "cement, Portland, at plant"], "amount": 900.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "bentonite, at mine"], "amount": 300.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "diesel, burned in building machine"], "amount": 10.0, "unit": "liter", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "polyethylene, crosslinked (PE-X), at plant"], "amount": 5.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "cast iron, at plant"], "amount": 3.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "copper wire, at plant"], "amount": 0.3, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "water, deionised, from tap water, at user"], "amount": 25.0, "unit": "liter", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "propylene glycol, at plant"], "amount": 4.0, "unit": "kilogram", "type": "technosphere"},
+    {"input": ["ecoinvent 3.12 cutoff", "sodium phosphate, production"], "amount": 0.05, "unit": "kilogram", "type": "technosphere"}
+  ],
+  "production amount": 1.0
+}
+
